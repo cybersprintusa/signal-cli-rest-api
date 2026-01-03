@@ -27,3 +27,5 @@ primary_region = 'sjc'
 [env]
   SIGNAL_CLI_CONFIG_DIR = "/data/signal-cli"
   MODE = "json-rpc"
+[build]
+  image = "cybersprintusa/signal-cli-rest-api:latest"
